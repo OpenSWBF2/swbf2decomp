@@ -1,0 +1,1507 @@
+{
+  "scripts": [
+    {
+      "lvl": "shell",
+      "name": "shell_interface",
+      "body_sha256": "4b5ac1564d6155c789b7d24d6ec6bc4293fd3e5ac4168d617b7c8ef49c1af0e0",
+      "source": "data/scripts/shell/shell_interface.lua",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/shell_interface.lua",
+      "source_sha256": "6a105d6297cb285c4722384dbc87b1e665f7ad9dd0b8ae1686514a4d404f2bce"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_vkeyboard",
+      "body_sha256": "d8207dedb35cc0b32bcce49516421f18122a80a3b093e6c09ed1d2e0330ea34a",
+      "source": "data/scripts/shell/ifs_vkeyboard.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_vkeyboard.lua",
+      "source_sha256": "b27a93a3d16d54a52a276278dfad166bd4b9226ed4c79273d521ffa10e1df671"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifelem_mappreview",
+      "body_sha256": "7d4293e4524c5b478c2102c23232c0d9b958c724e4801224ebb0b20be8429e10",
+      "source": "data/scripts/shell/ifelem_mappreview.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifelem_mappreview.lua",
+      "source_sha256": "1394c9ba4debad745818f7b1a7c9d52c30168c45b5b5afeb6ea7f3b76979ad9e"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifelem_titlebar_large",
+      "body_sha256": "d82b7c403dd10521d82fe84c5c9ee43a22339363147c753b12d7ab6a6ee9b2b7",
+      "source": "data/scripts/shell/ifelem_titlebar_large.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifelem_titlebar_large.lua",
+      "source_sha256": "f3fa51c4bba5311a13c692a49f419e01089dc6b23de1a48fe9333fe01a5cb6b6"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifelem_iconbutton",
+      "body_sha256": "41981a2a15f925b810deff7a88d082d1455f7d6fae7f7b6f43339586d54cea49",
+      "source": "data/scripts/shell/ifelem_iconbutton.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifelem_iconbutton.lua",
+      "source_sha256": "fc197f06ad79d145d90aee6b742a692fd0b5947015d364f764c55499ee7840ea"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_boot",
+      "body_sha256": "14be1a216e1ae21d2ac31b8692c0b0c18d86705bd8a20c7dd965a9caade99ef7",
+      "source": "data/scripts/shell/ifs_boot.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_boot.lua",
+      "source_sha256": "c2b52cd8a443a62bb035ace22759b0f3c65225ba51d401c7447461a6948a36ef"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_legal",
+      "body_sha256": "fd78d94927c85069390f3e28da5e6336bd2186930eb277c805cb64ddf3194b55",
+      "source": "data/scripts/shell/ifs_legal.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_legal.lua",
+      "source_sha256": "28815b13b1619fde8c6dd51cf1174097e757a38b3f7cbc0ae379078309e375eb"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_start",
+      "body_sha256": "08561d31ddd8472a7dd0935a616b3b939a0a553847134b1ce45781e5b3d0e3e0",
+      "source": "data/scripts/shell/ifs_start.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_start.lua",
+      "source_sha256": "b0c7f1d1ac94ca3638bba88e56c08eb93fdf9ec2ab5af1d0da0fb0d8881c362f"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_login",
+      "body_sha256": "519cd936c6962c41768afb6afa3f1658cd3e830609731d33d79776cc7742441f",
+      "source": "data/scripts/shell/ifs_login.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_login.lua",
+      "source_sha256": "4970865155aca44ad8a9cb5afe538837e4b8f7d6949040b604c867a4f9914d7e"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_main",
+      "body_sha256": "4fa48222e1abf6cecd8e7ef56fe05d7deecc49fce45b5391cabec8d229f8f3a2",
+      "source": "data/scripts/shell/ifs_main.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_main.lua",
+      "source_sha256": "13ba01f41524b0f36694b4c543500b79dede42c914b65500686fba89b57dc1b3"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_missionselect",
+      "body_sha256": "3889d5f89c9cd921aba6aefd58d11c74d99ba371034f12175114e2c2bfcd0b46",
+      "source": "data/scripts/shell/ifs_missionselect.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_missionselect.lua",
+      "source_sha256": "699c0c5d9d94c5407e9a932f59b724aab404547ed0725bdef277ab5374e2383b"
+    },
+    {
+      "lvl": "shell",
+      "name": "missionlist",
+      "body_sha256": "912e6c1d9d2ddd709aa2ec6ab4ac43a2bbd66895ce1a38ae2a5b45328332b47d",
+      "source": "data/scripts/shell/missionlist.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/missionlist.lua",
+      "source_sha256": "0b07ac63b4383ee75ee8525452a9454611b9e37424ad7ef38766764c7e315877"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_sp",
+      "body_sha256": "ba058cf511d5c91928b774ad376b4bf5cab7946e5868287e54f59e80501293b4",
+      "source": "data/scripts/shell/ifs_sp.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_sp.lua",
+      "source_sha256": "c1a17f149578a22f60e9a65fcd2bd11687c2c5f2462975b61161b50c2e00772b"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_sp_campaign",
+      "body_sha256": "53450c2ec42f2d1adbc26ea9b33742754b4fee544011a0e4498dc754c8cf7f3f",
+      "source": "data/scripts/shell/ifs_sp_campaign.lua",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_sp_campaign.lua",
+      "source_sha256": "2872698889ab681620b4fa4017d256fed5ae42b44ccc93732ce8c4939a7d2d5a"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_difficulty",
+      "body_sha256": "1eeede2f32fff1996901e69a3421d810b903098d5daa795fe69dcea33207a649",
+      "source": "data/scripts/shell/ifs_difficulty.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_difficulty.lua",
+      "source_sha256": "0874df2c426f9e7a298956319e59f168929541f4c202fec57bcb5dfe1b616044"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_sp_era",
+      "body_sha256": "6d88927b65d2c8691ad6e01da2191082a90e2c293dd80b97f82889bf315b9a95",
+      "source": "data/scripts/shell/ifs_sp_era.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_sp_era.lua",
+      "source_sha256": "0cecf703db8dc4d6088f239c882553073f35904c99c16673a7ec85a1acfa16ac"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_sp_briefing",
+      "body_sha256": "e6ff682fb41176743cc8e1f4c6fea308c8bd9f4a2f425d974748c0c177547887",
+      "source": "data/scripts/shell/ifs_sp_briefing.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_sp_briefing.lua",
+      "source_sha256": "dea863b73674d0eda4b91c4aa4a4d388b3da0aa6be2c18c91b61b9bc36757896"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_trailer",
+      "body_sha256": "7c9d72d1352d76040616008aafe48d2bbd785b9981696f069053ec8761f01201",
+      "source": "data/scripts/shell/ifs_trailer.lua",
+      "provenance": "decompiled 53.2",
+      "source_sha256": "78196c99007aa83bebf64f416293ca8e8bb682af4d8e5097a54e539e6c40ce56"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_spacetraining",
+      "body_sha256": "19b02a38b9447f89768ad675a6f6cebcdf8ccf8e66e5252f32792313f8a1c524",
+      "source": "data/scripts/shell/ifs_spacetraining.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_spacetraining.lua",
+      "source_sha256": "703312f10882c3719dbdfccd2f8ae52101fbfc5eae316c6b883e396f719360c5"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_instant_top",
+      "body_sha256": "3d392f4c130543f35fc345d41aa71b914d00e474ce21ed4238a52161e99d9ca7",
+      "source": "data/scripts/shell/ifs_instant_top.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_instant_top.lua",
+      "source_sha256": "cc16a2cd5c2c3842c1abefb58044eac29c3bbebbf068fc0bf807c16a9107d3c2"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_instant_side",
+      "body_sha256": "6c6dc502052c0cedda10cac7e0dd0696e155dd9e6a91f176fe89e053840d95a8",
+      "source": "data/scripts/shell/ifs_instant_side.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_instant_side.lua",
+      "source_sha256": "00ce5dce63055bbae31e5748ce152173255b766836b31dee3a22a741433aa9c7"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_instant_options_tags",
+      "body_sha256": "47653608ff47772b6206724f739683697ce857b7552fa22bed77deca937aea78",
+      "source": "data/scripts/shell/ifs_instant_options_tags.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/RecoveredFromZerted1.3patch/assets/Shell/scripts/ifs_instant_options_tags.lua",
+      "source_sha256": "7e3d0b320a4cd25bbd544135dcd8d5d5ecb3b24681bbf40720fdc85f47d88589"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_instant_options",
+      "body_sha256": "8c1ec9abbd697e01caf8c4486a3564d4042ee244fad9b08a5e83e3d9ede3f6d5",
+      "source": "data/scripts/shell/ifs_instant_options.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_instant_options.lua",
+      "source_sha256": "b99eaba56cc76f431c945f28a7a1dff0356458dc0952a9e786a4699d361b190f"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_instant_options_overview",
+      "body_sha256": "55434ec246467de9d0b80f962b2d210d600c15e43f388f9faccaaf3f5356fb96",
+      "source": "data/scripts/shell/ifs_instant_options_overview.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_instant_options_overview.lua",
+      "source_sha256": "d111e176f6e3f75285f04c6346e9e347dbf5134a582e58ec2132b3480d68e333"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_init_common",
+      "body_sha256": "b733bbaf9da19a8a78a7ac432a39b463a74014e8d41cf0bb371e18adb45270e8",
+      "source": "data/scripts/shell/ifs_freeform_init_common.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_init_common.lua",
+      "source_sha256": "f876f694efcb68723adffb6ef880e61a0460d9314686d0ff4dedd7e7a79daf05"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_init_cw",
+      "body_sha256": "f9f463e59049c980248afd5775cf16a63896547945f454a360bb2fb539b6b8fd",
+      "source": "data/scripts/shell/ifs_freeform_init_cw.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_init_cw.lua",
+      "source_sha256": "45964c9db1c5f90ff42477f77edae5db90e47c7a385e74c33dd71656b495a57c"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_init_gcw",
+      "body_sha256": "097085ec952d7b2ffc22af8c4516cceea5f370aadb400210606a971b2d568db1",
+      "source": "data/scripts/shell/ifs_freeform_init_gcw.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_init_gcw.lua",
+      "source_sha256": "2ea09f47fa9ab64573ca459823e004f7897a32e527aef2256fe0f5416e616d93"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_init_custom",
+      "body_sha256": "7a30cd4ecf75add07be681687437e89dc6160ecec5df18c15b3b84e20f14cb4e",
+      "source": "data/scripts/shell/ifs_freeform_init_custom.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_init_custom.lua",
+      "source_sha256": "444e91161061ac5d2f74ef5fe9f41e430a9d9cdac6e3d595074e69a915c3db70"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_cw",
+      "body_sha256": "70031933f2a8112931685c6cefde87dafe275877cf5b96c8d9bdee6f76abe525",
+      "source": "data/scripts/shell/ifs_freeform_start_cw.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_cw.lua",
+      "source_sha256": "0d9a13fd495b751ed492e554ad2f52fd6340c1d832194e19f6fabf4899b2281a"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_rep",
+      "body_sha256": "8c3c80f3d02419dfdab25b43c66250f5ca92d4c395f0a97f720a213ac9b8e7b2",
+      "source": "data/scripts/shell/ifs_freeform_start_rep.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_rep.lua",
+      "source_sha256": "dcb6a65a310470afd576283f10aa42f8d413493e5083264238badc149942b7e4"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_cis",
+      "body_sha256": "5a62aa61d2af9dc256330b5249c4cf021eac75746602f0536ac1c0128c86a797",
+      "source": "data/scripts/shell/ifs_freeform_start_cis.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_cis.lua",
+      "source_sha256": "f4f5b83d8c42346bbb0d9f995ddd88af9b1654fad324c7db3cb6eadd838a9fe0"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_gcw",
+      "body_sha256": "38314fe2b487bf417fc81ac3d1d150325680666e1f64637d8e073107c38b83c7",
+      "source": "data/scripts/shell/ifs_freeform_start_gcw.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_gcw.lua",
+      "source_sha256": "64e562a3a2750a5019f787e8ff323c12683fa325321bcdd218a29a21569aad20"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_all",
+      "body_sha256": "5e45586bbd3d05b42a4a019c4901878658e3dd25902960b969eeb8a785edd40d",
+      "source": "data/scripts/shell/ifs_freeform_start_all.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_all.lua",
+      "source_sha256": "42b0de0cc0b2d3f1b574344156d0c4d3b5151edb3e01dd749267009bf983f58a"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_imp",
+      "body_sha256": "364503429e471e9b628ba5138cfa7ffa57a83d5f8219eff732bf5adf7237b2ad",
+      "source": "data/scripts/shell/ifs_freeform_start_imp.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_imp.lua",
+      "source_sha256": "f8e0042dc89ba10be6797b28bc63659e10996f507e695fd754ae515415766d65"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_start_custom",
+      "body_sha256": "13f5d710e4345089cf92b30363058f930998f8e92f8334fbdbe4ffabb52886c5",
+      "source": "data/scripts/shell/ifs_freeform_start_custom.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_start_custom.lua",
+      "source_sha256": "1a5c300b985081a9da40298291f7b1c1b0efa38e5b5e4220ec5505897f607680"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_main",
+      "body_sha256": "dda7ad8d22a2f2257fb5d6a649f02ba0db96a52de8612a8974de71f941cde01a",
+      "source": "data/scripts/shell/ifs_freeform_main.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_main.lua",
+      "source_sha256": "0d4aa7f4d23317de2d93dee8855bbf34179b31ea1bac52831cd51da855c2aeea"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_sides",
+      "body_sha256": "07808a963632e3941f64ae68d4ccb333601a754525e0fbb3b5392f60833d3e46",
+      "source": "data/scripts/shell/ifs_freeform_sides.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_sides.lua",
+      "source_sha256": "9205628e9f2a9052e2a061b5055949dd716b9453b33ae74f9ddc2b73ab160437"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_ai",
+      "body_sha256": "e0f2d8a135acbb47457b4e5564495c8dbb5a187c95f221d993da3e5ea2cfac0f",
+      "source": "data/scripts/shell/ifs_freeform_ai.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_ai.lua",
+      "source_sha256": "c49faa4db52a49bcd4290d46e150bbf67ec934fa72d6f37682cc28684d09b28a"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_menu",
+      "body_sha256": "26db747a24da2054da2f2822cbcfcee0a40f29d4f19f9f717c37802c0115e77c",
+      "source": "data/scripts/shell/ifs_freeform_menu.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_menu.lua",
+      "source_sha256": "d6648ecd5d52d4488fd32cdefcf760d0ee8261a26bc86a92553e2a9b15036aae"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_load",
+      "body_sha256": "d63d2e01ba5ca947070ea98ae463e84959255c46e6ae2185e0e59781e734e759",
+      "source": "data/scripts/shell/ifs_freeform_load.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_load.lua",
+      "source_sha256": "ef722906e50ba74c1d06b40fd9da25ba60e294a2975f4fca5e2751c8a0bd9e46"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_cheat",
+      "body_sha256": "a3468bd144f9a489f3fe9db2da2314b4aab58d6e271ccae434bcd13d6c91df23",
+      "source": "data/scripts/shell/ifs_freeform_cheat.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_cheat.lua",
+      "source_sha256": "56f679a98c4e86478611c5e8306f456236d865a6e0db50cb95103f53b616bcfb"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_purchase",
+      "body_sha256": "6f1f4166de28a7fc79d71c6942f6fd07fbb323528bdc464d8e9ac7f1dfb90f62",
+      "source": "data/scripts/shell/ifs_freeform_purchase.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_purchase.lua",
+      "source_sha256": "a2251a1bd4d6a7cfe49248aef2c517abd9d33ea6cb95e38487fff2a0f2fffbf8"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_purchase_unit",
+      "body_sha256": "2bb0df01fb036133994797ee197f2fdd4b0dd1dab0d661bdd60e7a1ab1833f49",
+      "source": "data/scripts/shell/ifs_freeform_purchase_unit.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_purchase_unit.lua",
+      "source_sha256": "1e3f3426f7bfd8ac3155e02fb89bdd4e57f4b19fab81abd9beaeb5f9079f8d0d"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_purchase_tech",
+      "body_sha256": "ba8f451ae0d73584a15eaad190774afa2b06714728b222fc49324a690ff45fb6",
+      "source": "data/scripts/shell/ifs_freeform_purchase_tech.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_purchase_tech.lua",
+      "source_sha256": "2354b9df648155ca6d7990fd74d6e488efc65cbd3d349242550fa127607939f9"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_fleet",
+      "body_sha256": "8139c70b9500e4d98c2104b8c978a05d940fde15fe708487b89cb369af78d4e3",
+      "source": "data/scripts/shell/ifs_freeform_fleet.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_fleet.lua",
+      "source_sha256": "f555346c39ee504dbdeb4cb06a1198771622a11b045522cc25626654524f797e"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_focus",
+      "body_sha256": "945e979bac921184bae61e92f9ee0c845b02300ed07b4513afe2cead102737aa",
+      "source": "data/scripts/shell/ifs_freeform_focus.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_focus.lua",
+      "source_sha256": "c4beeef080f3ecc515cb3b252a8d77e2a8cab5c6a7e93c05aa228045701a819d"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_battle",
+      "body_sha256": "77fdaf21a49e3c869e77dc43b4298cce7bc76c24662c7ebe038afdd6f36b3a22",
+      "source": "data/scripts/shell/ifs_freeform_battle.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_battle.lua",
+      "source_sha256": "d359f8c6de8cd73c7dd2721ac539ee652cbd83fa08ef0b5a7a077c48f602b970"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_battle_mode",
+      "body_sha256": "1b9466d64428a73485081dab5cec0c33ffbc4ba4d997a6d813771e76c021a73a",
+      "source": "data/scripts/shell/ifs_freeform_battle_mode.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_battle_mode.lua",
+      "source_sha256": "dbea4871c8b8da34326a9292c76b31bfeec813a99dbc91a745cceeaafb20993b"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_battle_card",
+      "body_sha256": "3f41415d2fb97ac7dd51c12be7b3ebbfc3407df3c6828a4098189396ab2c72db",
+      "source": "data/scripts/shell/ifs_freeform_battle_card.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_battle_card.lua",
+      "source_sha256": "68bc95ddb10c0ed86617385c18e963317a37f889c4b862235ed27a1d2f088945"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_result",
+      "body_sha256": "6500ee28ec785d50a8cb8b4572e6a38e1cc02390d048f6bf15587003109a2dd9",
+      "source": "data/scripts/shell/ifs_freeform_result.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_result.lua",
+      "source_sha256": "8f1c5843ebe931d8167e327abc4a55498bdf94463e25441836415276eeb66d20"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_rise_newload",
+      "body_sha256": "41a9ec966f2b23e3899d8de0650f93e873d7ada677e4ed06768a56e260ff033f",
+      "source": "data/scripts/shell/ifs_freeform_rise_newload.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_rise_newload.lua",
+      "source_sha256": "9dc38147370549b1e0666151603313a3e0623579b6e2a82d6e45fc796fe7ffff"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_pickscenario",
+      "body_sha256": "c3294ad9328d3792a0bc9e12a408da36379799b1c342beccff583710b412a4b2",
+      "source": "data/scripts/shell/ifs_freeform_pickscenario.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_pickscenario.lua",
+      "source_sha256": "8a013fedc5e5d372dddb0cf18f9d054e3fdec574d9e60caf5aee0d7f38e8e66d"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_summary",
+      "body_sha256": "10d036c01fb78516367f2a6e3aa6781354be9b6174531531021042f5ff2a5b17",
+      "source": "data/scripts/shell/ifs_freeform_summary.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_summary.lua",
+      "source_sha256": "e6a91e49030dded47d4845ac37da4150a0d62ff88369905f68ee86684bb45033"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_end",
+      "body_sha256": "03f909873e74b5747edea1a056f888da11c11dee5babe1d6de8bb60e78711838",
+      "source": "data/scripts/shell/ifs_freeform_end.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_end.lua",
+      "source_sha256": "b0a86805693cea6d6d7d0a20169925d51c1aaae708071665590b6f729c0e4bb1"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_freeform_customsetup",
+      "body_sha256": "5a6ebe38f2a7cc9637f8eb8531b9dbf565e2a543311346221cf6384c76756ebc",
+      "source": "data/scripts/shell/ifs_freeform_customsetup.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_freeform_customsetup.lua",
+      "source_sha256": "fc4f108afbd6ea058e32f3294fb70da7a7d4117d93f0b3466171f293710424fa"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_data",
+      "body_sha256": "b51d630ef984415fee26b564559f87451aef617f6c776cdd63f95f2a878123bf",
+      "source": "data/scripts/shell/ifs_campaign_data.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_data.lua",
+      "source_sha256": "e0418fe6cf476257690d815c6b658b7339a614bdf6c1886f20baa212de2799a8"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_main",
+      "body_sha256": "c033d5635ebcfa8ac3634001aa0f585456c48fa284b2c821d5c3e4ea9dd891f2",
+      "source": "data/scripts/shell/ifs_campaign_main.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_main.lua",
+      "source_sha256": "1bda8e4a5a4e5f5bd2202098afb7a09755d7f6a7324a6784cce259fd8020be1d"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_menu",
+      "body_sha256": "2594b1e1d8d5b8825e2369751d7f2ceebc07ccab693972e014887aae243b8871",
+      "source": "data/scripts/shell/ifs_campaign_menu.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_menu.lua",
+      "source_sha256": "30b248008ed0a2fcd669863b170250fc5e98d3103695fb40c3a3a5f2f1d95cb0"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_load",
+      "body_sha256": "e96aeebadced8c875df32c31a17174271e4fd2ca4c6851f1c5ec43a64afb16fc",
+      "source": "data/scripts/shell/ifs_campaign_load.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_load.lua",
+      "source_sha256": "e0dd53579d662bfe657599b33048615d928a351a724afa63f1db934f3b8263c4"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_turn_intro",
+      "body_sha256": "b1d65976fec07a76ef12e02394d198f5db4d982c53653cf955ab951f55930788",
+      "source": "data/scripts/shell/ifs_campaign_turn_intro.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_turn_intro.lua",
+      "source_sha256": "10c2833237cc7e9918d658e9e6ddfb536797d9464b1202ecf07d01133c38dd84"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_battle",
+      "body_sha256": "722ba64ae301749645e22a37e4c793ebb164b6d43dd25c90b3f6dbca9837419d",
+      "source": "data/scripts/shell/ifs_campaign_battle.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_battle.lua",
+      "source_sha256": "d62e488790bba4a413d5f754aa6907495ed1d5c05e9d31221ec113d727b74790"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_battle_card",
+      "body_sha256": "a1127022c49b5c571930692f18f418bad0c1c79ae01ab53988a76205b79988ea",
+      "source": "data/scripts/shell/ifs_campaign_battle_card.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_battle_card.lua",
+      "source_sha256": "fb967442f4c099b91efe1856a50f7029d0f69e4d59fbeff5ff2f86a4180a5750"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_battle_intro",
+      "body_sha256": "4cfa0417865db1456ea029b2c1ae6f8b7b1a90ab8d568a6576937eb5d12c93d2",
+      "source": "data/scripts/shell/ifs_campaign_battle_intro.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_battle_intro.lua",
+      "source_sha256": "3098fb0af4729e2b340ac38e1d79b5d01232f6317c9f61e93852a71cc37b6db8"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_summary",
+      "body_sha256": "fdb792acc70bec236d87f0108641c044fd06714c6b62309d8481d80d78fc38e0",
+      "source": "data/scripts/shell/ifs_campaign_summary.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_summary.lua",
+      "source_sha256": "6b9c063251e54f1ba7a37780f629f62f0cda21a101b47eae1566c992ae2d037f"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_campaign_end",
+      "body_sha256": "b371a63cab2c68330d177151ee7a0b4547e50508a4567010f0a6a4f80de5f23c",
+      "source": "data/scripts/shell/ifs_campaign_end.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_campaign_end.lua",
+      "source_sha256": "b218ac9d5004dfadf55ec472c0da2f3cba870b09a990cbbbec8e1605814e0702"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_unlockables",
+      "body_sha256": "432c97c68b21e4f361647d3662a5e72bc0ea595fc52fea8af502e35912808a52",
+      "source": "data/scripts/shell/ifs_unlockables.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_unlockables.lua",
+      "source_sha256": "3b7da6beb07e149046e9fb3138ac08819034db157460d8ce0bbf3c1605dadac8"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_tutorials",
+      "body_sha256": "ad740a35f43ab0a95baa5bb3c6ba337b7773772ae68e199a99373836cd16c88f",
+      "source": "data/scripts/shell/ifs_tutorials.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_tutorials.lua",
+      "source_sha256": "1ec2f4da541f2189127f12b6d128798736c02ec58ac32e8d39566536cf87dfb8"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_credits",
+      "body_sha256": "ab822f8cb32c52b7a2a5bcd09fe9c7dc8f85325dc9f48d38c6b82bd92d8cf243",
+      "source": "data/scripts/shell/ifs_credits.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_credits.lua",
+      "source_sha256": "bd1573376220f7d2f8ede62cdda3873a8b95da870e74b6608dfd3ecdd1e751a4"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp",
+      "body_sha256": "3b1da071b0042e0a658aec9968f85ad57e63f38398dd7629173864bd7005feac",
+      "source": "data/scripts/shell/ifs_mp.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp.lua",
+      "source_sha256": "0acbf941d748253f5bebc7304db490f7647df0bec70dd6b29b0045d8c4b61db1"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_main",
+      "body_sha256": "adb7071bf3ee2bbe6f3120b7317aa31b2fd527ddac9c379ee4c06d61d2a184f1",
+      "source": "data/scripts/shell/ifs_mp_main.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_main.lua",
+      "source_sha256": "4f0b2514699df180b9e1884b92da2845d4155b2971a72b00dee49cf7e02fb403"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_maptype",
+      "body_sha256": "c51eb0e563a43f13726a1a5832ba765c279936591e7ba9980384f64ef7669d29",
+      "source": "data/scripts/shell/ifs_mp_maptype.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_maptype.lua",
+      "source_sha256": "56ce06cabc5dfc565d1074c74b12bc8a088f21442229edbc56c42c3384766777"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_sessionlist",
+      "body_sha256": "12aca6bdc704620a720210d9a5eecf7938ab2c6034253311206ea93ee9d463e1",
+      "status": "decompiled 53.2",
+      "source": "data/scripts/shell/ifs_mp_sessionlist.lua",
+      "source_sha256": "86684d481cc87f654edc36f2906b56c49d5f535d54796112be4250af7294ec7c",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_mp_sessionlist.lua"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_autonet",
+      "body_sha256": "15e10ebc5084ad2bd6fddef26846802818d36da3f76379c01815b39083026b65",
+      "source": "data/scripts/shell/ifs_mp_autonet.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_autonet.lua",
+      "source_sha256": "34b767c664d8496f21eb74abc3042946bac84bba622bb44afb538a644b993eb8"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_split_map",
+      "body_sha256": "88631fa910f3c400c60b5c578e11dbdde2af30c971b3dbd6cc7c979adfdefb8b",
+      "source": "data/scripts/shell/ifs_split_map.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_split_map.lua",
+      "source_sha256": "254e24991fc7de5f5a111cefd5cf39c051ad79f569ac30250f0befb7340ce49f"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_split_profile",
+      "body_sha256": "8ed5813cafb30895a487f3dc2bb05535c77553f6367d49df48728ff74f4569f6",
+      "source": "data/scripts/shell/ifs_split_profile.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_split_profile.lua",
+      "source_sha256": "86f2feea23357d3de0250a90db9dde8ac16aa51750bd92617dbbedacd8f0abb9"
+    },
+    {
+      "lvl": "shell",
+      "name": "popup_ok_large",
+      "body_sha256": "5a89f81fe35af2fef32c128cac6c0099b6adc7db337e4e39117cb64bfa73e5b3",
+      "source": "data/scripts/shell/popup_ok_large.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/popup_ok_large.lua",
+      "source_sha256": "e7231684bed003aa8956ffae4da2f49128f3b2da7c9b57462a08ffd2fd5c2444"
+    },
+    {
+      "lvl": "shell",
+      "name": "popup_tutorial",
+      "body_sha256": "f0afd7c44cb2da72ae0ff14d62ae6c269cb57be4b4c188acf90f05f06415e3ab",
+      "source": "data/scripts/shell/popup_tutorial.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/popup_tutorial.lua",
+      "source_sha256": "3f730831c3bcc7e243787602a6255c000d9ad37ff5fc9390d2914f283798942d"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_leaderboard",
+      "body_sha256": "f25e3e4c981746168d5de6a21d82c7fd995bf314c76149cd76058dfff0ef1f15",
+      "source": "data/scripts/shell/ifs_mp_leaderboard.lua",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/RecoveredFromZerted1.3patch/assets/Shell/scripts/ifs_mp_leaderboard.lua",
+      "source_sha256": "7d57a35c60cbd893bfa1e17c8e8985bb1b5a6ba05277e10e0f61ce5417f848bc"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_leaderboarddetails",
+      "body_sha256": "15cd3621dea0668d6ec966e1af76b4e32c16ac6cdbb72e9474e88c71cecde493",
+      "source": "data/scripts/shell/ifs_mp_leaderboarddetails.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_leaderboarddetails.lua",
+      "source_sha256": "455e549a34ab56fd95b02a4c967d00e807ed73e5de5025274164c130971a31dd"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_pckeyboard",
+      "body_sha256": "0785ac3b8244131a41883ef6f29be8aa048d4e1bfdd3ec21200a3ed3146927f2",
+      "source": "data/scripts/shell/ifs_pckeyboard.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_pckeyboard.lua",
+      "source_sha256": "dc6b0338c3b8d1cc2bbac68f19f8be0c6da793c1714cd5118dac4e3b4fd0e51a"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_movietrans",
+      "body_sha256": "78492fe39e2f625c7173f39e818f25c1750db6e3999805ec182697bd5ce9e50b",
+      "source": "data/scripts/shell/ifs_movietrans.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_movietrans.lua",
+      "source_sha256": "0084e2b50d4bbb177b356d3473575a5ac14175fa511b2f6847edacacae27bc64"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_attract",
+      "body_sha256": "149f129256f358497dd973b45e3d44b6460f398e1b80a9c656cb036bc0928113",
+      "source": "data/scripts/shell/ifs_attract.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_attract.lua",
+      "source_sha256": "2b7bb2e944f061a30df5b8e3b1b9ca7ff9c7ae7d6d28b7545991a1d6aca2f3ec"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_lobby_quick",
+      "body_sha256": "2857b5ec6c8ed41e7b772e212ef5cdc67b22bc05793c49a7a6543e6c3eb8aef4",
+      "source": "data/scripts/shell/ifs_mp_lobby_quick.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_lobby_quick.lua",
+      "source_sha256": "031ab041f927f998ae5c2deca780b7c7dc9ac3ab30313f496783b322112ebeba"
+    },
+    {
+      "lvl": "shell",
+      "name": "popup_loadsave",
+      "body_sha256": "364d55556d08bc3b04bd7704620d4332ffac7cb4a1ee332a489e8de6f1f637d5",
+      "source": "data/scripts/shell/popup_loadsave.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/popup_loadsave.lua",
+      "source_sha256": "b14ecbb8c9016d2de911e653cff8c2081df4d8d5837686e54e3a8e31026ee667"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_fonttest",
+      "body_sha256": "9107d4e7168b20abb49614544c19ee46e6be559bf11aecca0d5e7b04d139b601",
+      "source": "data/scripts/shell/ifs_fonttest.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_fonttest.lua",
+      "source_sha256": "be77b9036beb5fb519d28e7084cd0ee856b866cf19613f9c976f8987b1548a3d"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_gameopts",
+      "body_sha256": "71fb4839c3ea8576da060a39e6b6ad56ba75d78fb83b616ae70482eb030e0f4e",
+      "source": "data/scripts/shell/ifs_mp_gameopts.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_gameopts.lua",
+      "source_sha256": "2ddf320dd8edcfbb5dbadac258b80098df774b0b7308e352e15bdc2835ba9108"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mp_heroopts",
+      "body_sha256": "b2074cb096726ff1a89c77a063dd853821cd0c691048dcd74e78a6cf871d2fb0",
+      "source": "data/scripts/shell/ifs_mp_heroopts.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/ifs_mp_heroopts.lua",
+      "source_sha256": "9bd204702016006de9f21d6a5a4bd0e6538f71b8ced28b0394f01f15d699ee38"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_missionselect_pcmulti",
+      "body_sha256": "6996643ed3233e9c4d9205dcc1ce247a19aa8319065b561bbf13a9e739c2eabe",
+      "status": "decompiled 53.2",
+      "source": "data/scripts/shell/ifs_missionselect_pcmulti.lua",
+      "source_sha256": "c10ebfdf15f44134e287ff1aacd73fdedc0b1d921eed03abf5d9c6977ae7613b",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_missionselect_pcmulti.lua"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mpgs_pclogin",
+      "body_sha256": "ac884bf207b4036fdf63dfa75ad5df3a05a0d8cb50e1a66b684fe4947c8f3296",
+      "source": "data/scripts/shell/ifs_mpgs_pclogin.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Shell/scripts/PC/ifs_mpgs_pclogin.lua",
+      "source_sha256": "c820462ec1b196fe2786f796b8b31e2365b3456848c91ce5036564f651891ef5"
+    },
+    {
+      "lvl": "shell",
+      "name": "ifs_mpgs_galaxylogin",
+      "body_sha256": "5f5082083c0ed2bd3f9f49e6fd784331eaf948e742efb4efad83baee9edc8d4d",
+      "source": "data/scripts/shell/ifs_mpgs_galaxylogin.lua",
+      "provenance": "decompiled 53.2",
+      "source_sha256": "42bdabc8b07e0e196c5eab45ae0141ecd8840277638459ef675ea5f32900fd90"
+    },
+    {
+      "lvl": "common",
+      "name": "interface_util",
+      "body_sha256": "b06c1761c7650f9b6dc7b7215510409e21d8f08ed4210c4951a7d0866b4deda6",
+      "source": "data/scripts/common/interface_util.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\interface_util.lua",
+      "source_sha256": "9737e2877696e7279ed846c5d1e9ba8e487b636abce4a47749ea9ddc453ad8ad"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_button",
+      "body_sha256": "d42ad42b8c97308af921d38ce796403e21dc94b817dff70be76378c38d9c959b",
+      "source": "data/scripts/common/ifelem_button.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_button.lua",
+      "source_sha256": "ccc046aa44a28477207285ef2624679e470abc670577cce07fe45e7b498bbc2a"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_roundbutton",
+      "body_sha256": "174267ae62d607680a433ea62419dd325c9e9d26cc96fdc23c17f866e82a9026",
+      "source": "data/scripts/common/ifelem_roundbutton.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_roundbutton.lua",
+      "source_sha256": "fb8205e9530d2bee99b3ac416bd83acb39b2eb8d1593c9719b3a26379b69c4eb"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_flatbutton",
+      "body_sha256": "6b49c64210d2b87846fa5a47854fe1846d0bb71c218251409988be4fd005db65",
+      "source": "data/scripts/common/ifelem_flatbutton.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_flatbutton.lua",
+      "source_sha256": "9aff15d79270cf3bb20d497d8819103d1f5f66913605c055a9c21d70b6319d76"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_buttonwindow",
+      "body_sha256": "feaaf1346b663c6354bfae39b2e7921d03112fad416028d39c453eb2d55a0ddb",
+      "source": "data/scripts/common/ifelem_buttonwindow.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_buttonwindow.lua",
+      "source_sha256": "4580dc4bce6f8d827b93b8b93957e2bd08eeafd0b905995cb17604b100270a79"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_helptext",
+      "body_sha256": "c73c7c046741b505d3e08d2a792b53396659177d8ed129591a1ac3ac0cd77452",
+      "source": "data/scripts/common/ifelem_helptext.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_helptext.lua",
+      "source_sha256": "b169ef98c320521e7a546fe89b96be0fbc8f778638b4ece8d1992ebbc178d2c6"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_hslider",
+      "body_sha256": "03bcc714e56754292ac5c236a4be7c3dfabb9683591c136e93bb225af52857f1",
+      "source": "data/scripts/common/ifelem_hslider.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_hslider.lua",
+      "source_sha256": "75123ce7c1900271cbdb59e3f0bf0a127db1992fd68e6562962758976e362911"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_popup",
+      "body_sha256": "9a4dd428629f220226a677b0e572b112b66be6c73d435d240061ce830945f11c",
+      "source": "data/scripts/common/ifelem_popup.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_popup.lua",
+      "source_sha256": "9b676544a2a72e8f9d36023e638456166a95b0befbc1afc252f596f2e92c7b68"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_segline",
+      "body_sha256": "60a441e92f0cf93c00142e2e06a1a241ca52ae8107ef2592e8c1923ac0faa2c5",
+      "source": "data/scripts/common/ifelem_segline.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_segline.lua",
+      "source_sha256": "a65660c38977a27d7b4fcc4401c9cbd22543add43ff5060aa28a840f5ad2b0f5"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_listmanager",
+      "body_sha256": "42a535b167a46e83a3ad262863afce3788c7ec2b757a49928f31aefdd6aa788a",
+      "source": "data/scripts/common/ifelem_listmanager.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_listmanager.lua",
+      "source_sha256": "7c49c943afdcd3acc46b4c5ec95bfaa0a58ddac372ff11e0d6ac1b8e7a47addd"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_shellscreen",
+      "body_sha256": "e5745478c04b377ff58cd7c6dc6b5bbc15887e698801838c93d121e56deefb2d",
+      "source": "data/scripts/common/ifelem_shellscreen.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_shellscreen.lua",
+      "source_sha256": "4fbec4725903340bc2797536ec109dc5368d73c8300e598735a5b8893159dd5d"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_titlebar",
+      "body_sha256": "2d29d39bb23585a217cd3f5dd15fab7c63db5f87fdfdf602b3b32cfe4b43e99e",
+      "source": "data/scripts/common/ifelem_titlebar.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_titlebar.lua",
+      "source_sha256": "39b77da6faffe09f4c4e365ef3f875a4aad1376c3fbd1a4f0cd8de3582dc8592"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_borderrect",
+      "body_sha256": "97dbff9c3494cc437623e3aed6521373116c25b627cf02ba2de849d0f1595ba9",
+      "source": "data/scripts/common/ifelem_borderrect.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_borderrect.lua",
+      "source_sha256": "b2ac6187328f82cfc1a4dd0d95e11dd01c7dfaed75702df4c5687337b1b7a840"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_animationmgr",
+      "body_sha256": "f3e7d894f2298595d0c72a276b564be3ef3b7e73e44f3d7c4b418d62cfb59f3a",
+      "source": "data/scripts/common/ifelem_animationmgr.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_animationmgr.lua",
+      "source_sha256": "37d38d3739fa9cc6e1d2ba87abe43d3634ddffcc8b80b779e1965ae2d71acdcb"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_form",
+      "body_sha256": "3175cddff5738dd82cbf1e932e9cf25ae43f7738e1e8b8d37917081b58944309",
+      "source": "data/scripts/common/ifelem_form.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_form.lua",
+      "source_sha256": "4f2d93b3e7569363e96de5be17667836ac138c2a7b2417d0cafec0d6f9f1ac14"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_movietrans_game",
+      "body_sha256": "0da5f02cba386e4ea7bb78d0c3f3a84c60acdbd31b2e040a6bbb28acdfc3a858",
+      "source": "data/scripts/common/ifs_movietrans_game.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_movietrans_game.lua",
+      "source_sha256": "0bffa0a5551dc2dc3d0f49b3d5ebca614b42091723a381366ec700104711aadc"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_pausemenu",
+      "body_sha256": "e048aefed65b8b91004c128a22d2ba86f857e3cf7e858d94dff0c9fd86b25e0d",
+      "source": "data/scripts/common/ifs_pausemenu.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_pausemenu.lua",
+      "source_sha256": "42b33c1f8d0fc450072cfdbe7948712f63ac2309337e2f37a524525360f43568"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_teamstats",
+      "body_sha256": "c4c03568155a063ac3f0b90a63be5136dbfa5453ba5d6b732051c1ca75db3bb5",
+      "source": "data/scripts/common/ifs_teamstats.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_teamstats.lua",
+      "source_sha256": "653aa388a90c6bac596e5e487692dd7b0a849c0357d480911e91dd7602190385"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_personalstats",
+      "body_sha256": "2fc732db54b518abd94ad8e621158d8c2dba9452b516478a70606a66d70bb7c4",
+      "source": "data/scripts/common/ifs_personalstats.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_personalstats.lua",
+      "source_sha256": "3c99a7a9b559e94dcf49469ad4429f43fe361de54f85887b7c1faef02fe9c31a"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_awardstats",
+      "body_sha256": "95d211f6e5ba04b22cad6c72957821950e2b862a5a930bc49edeea665f678d5a",
+      "source": "data/scripts/common/ifs_awardstats.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_awardstats.lua",
+      "source_sha256": "d36a7107e5dda75298438b0c37a18847704389bf7ed846554402675e3e80afd4"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_careerstats",
+      "body_sha256": "72f6543f89e24b025a32a86ce3c10b32c5f770e9db6d0445d875465fdd682ffc",
+      "source": "data/scripts/common/ifs_careerstats.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_careerstats.lua",
+      "source_sha256": "ae95c1c7b8d5de53390ab62b08b07ce6d383f9f0f9e0dac137a6d345ecaeedad"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_top",
+      "body_sha256": "a4b5baba1f8b6500756cfcc14c2dbc39f60e97e211d8abe8ca67a0500dc29765",
+      "source": "data/scripts/common/ifs_opt_top.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_top.lua",
+      "source_sha256": "221066f4a183793cfb2425b5da23b5d0c1c555023c24749e71de43e1ec681908"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_general",
+      "body_sha256": "ce802dfdd63367ae20eb4bd8a1a880c3c14b15c296f56fab5cb85cfccf7a5afe",
+      "source": "data/scripts/common/ifs_opt_general.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_opt_general.lua",
+      "source_sha256": "4e25b8ddf5b11f65949dd6105e9b3438e69e7e74a8830ffff3445cef767ab3e6"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_sound",
+      "body_sha256": "ca0bf9070cf1c9ef4922502b284b9ac65d356186ca1a8c8e6ab094aa35dc2e26",
+      "source": "data/scripts/common/ifs_opt_sound.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_sound.lua",
+      "source_sha256": "6cce136c2214543dec3e6c16b13e314b1473171637ce2dab5e883eca8e7a40f8"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_mp_listtags",
+      "body_sha256": "e2e073926997b41de78f7054203e383bd78cb93bbc8bae65df374a361ea52462",
+      "source": "data/scripts/common/ifs_opt_mp_listtags.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_opt_mp_listtags.lua",
+      "source_sha256": "ffe499676f77491fb64048bb457ffd4427c2dcf3a617a0bc8bf5851c205f7283"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_mp",
+      "body_sha256": "d45883069d2a25d4d4468b241589f8aa58cf2bbe3a05fc4ef0c730f62a221463",
+      "source": "data/scripts/common/ifs_opt_mp.lua",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_opt_mp.lua",
+      "source_sha256": "58ba6c02578231eb467c2a39092308b92a9544c39d534e4ca034955e00f40a0e"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_controller_mode",
+      "body_sha256": "1104e87dcc94f253c097963ef3a2547f817c6fb21ee86425750a345764291c41",
+      "source": "data/scripts/common/ifs_opt_controller_mode.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_controller_mode.lua",
+      "source_sha256": "8c299e8f1cc5703fa5831ca91831c09325f6442472b14471729a4aa345ca8532"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_controller_common",
+      "body_sha256": "7fd2594b01efab2408732c0011dd5a1315c899db9cbc59ba964a0c1ee52bb028",
+      "source": "data/scripts/common/ifs_opt_controller_common.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_opt_controller_common.lua",
+      "source_sha256": "aa152d7aca3963ad68081de814d83afaf8c076324ce44a5b1abd8856129657ef"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_controller_vehunit",
+      "body_sha256": "eedf6362b3c134606b4f29b01d6fcc6eb7c4f9ceb43c38a10c26928dcb05b955",
+      "source": "data/scripts/common/ifs_opt_controller_vehunit.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_controller_vehunit.lua",
+      "source_sha256": "410e6f574fead670aea44b128d5653647a67fc5ca6a33a189c4454fd982d3524"
+    },
+    {
+      "lvl": "common",
+      "name": "popups_common",
+      "body_sha256": "c1ce6e4bddb8241c080dee3556f40a0c976e7b3bc15250ebcef42b58677f7201",
+      "source": "data/scripts/common/popups_common.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popups_common.lua",
+      "source_sha256": "44248618e5ca63a04b0566506191c248d92b73f0534027c6ee819a8af2cc8418"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_ok",
+      "body_sha256": "2e28eb44f47a3ec4631656d5f44ccb849b31b012464addd6eee3d896c230077a",
+      "source": "data/scripts/common/popup_ok.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_ok.lua",
+      "source_sha256": "8c8308d94d47e835dbb194be1a72a809709c696d465aba6527088182cf0d9c5b"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_yesno",
+      "body_sha256": "829ffad94cad88405f9d0dc0749b01905795a477f14bc67999d84947902f6b34",
+      "source": "data/scripts/common/popup_yesno.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_yesno.lua",
+      "source_sha256": "69bde10c6575c33ddf0431c1ac39d781389ceeafeccee2563cda3611dfd90b1b"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_yesno_large",
+      "body_sha256": "b3da05d3ec8f2236a3c89b95a3cefd2282f143ee16039c4920899679c1000e19",
+      "source": "data/scripts/common/popup_yesno_large.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_yesno_large.lua",
+      "source_sha256": "5b9f56a3e94af3d8bbc13b87dda600e08ed8e949dda0341ff15a62126310d4d2"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_loadsave2",
+      "body_sha256": "b87830c59c9fad8cf2dda3a43763b005a3c5dabd28f539d28d6c1f2fb0d8c571",
+      "source": "data/scripts/common/popup_loadsave2.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_loadsave2.lua",
+      "source_sha256": "e9db5de73b695780185b6d29ede3f19b8b69a883217ffcd115b1d9468bd0039d"
+    },
+    {
+      "lvl": "common",
+      "name": "error_popup",
+      "body_sha256": "b9af51759d70750650ee0627a06a472935e2e9c3479be68eaaaaf2205ee5dbba",
+      "source": "data/scripts/common/error_popup.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\error_popup.lua",
+      "source_sha256": "aa788a7156aa484dad70e6593249d0e9111ae6491d9e293edba240f805739aa7"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_busy",
+      "body_sha256": "9067611986338f2693e0bb159141d33e596189b8afec525865795242e1c67b9d",
+      "source": "data/scripts/common/popup_busy.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_busy.lua",
+      "source_sha256": "228342821ebd26e19b57cde98dbdd90a6fd197501529bdf51cafec233e3556fd"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_vote",
+      "body_sha256": "702032c9131a4f1d5a93097a0e44efcff00d204c21cfe1c2e88627d86c0d6703",
+      "source": "data/scripts/common/popup_vote.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_vote.lua",
+      "source_sha256": "e35cb9ea31294a92f5f1dca0c6d0f75c379c859106460df313dae42d9b8d637f"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_mp_lobby",
+      "body_sha256": "5d293c643b2710c9844ad6cc3e3b82cbb84b4d56d4a0048f722ab6f791664966",
+      "source": "data/scripts/common/ifs_mp_lobby.lua",
+      "provenance": "decompiled 53.2",
+      "original_path": "E:/BF2_ModTools/data/Common/scripts/ifs_mp_lobby.lua",
+      "source_sha256": "0081d5787f1dbeee73e1e66cfd9dda8f6533db2eaabffa5b40b0f104bcbdc760"
+    },
+    {
+      "lvl": "common",
+      "name": "popups_lobby",
+      "body_sha256": "2d01701f170a510a7e3da209b24471255dc3afb641cfe65ca64fca0140976007",
+      "source": "data/scripts/common/popups_lobby.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popups_lobby.lua",
+      "source_sha256": "3f673b8d747e63b405d5b382dda6ff269f1be29ba37158bf2ea4bdd830cce8cf"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_mpgs_friends",
+      "body_sha256": "e8ddf938777bf666345c870e0edd13d54cce82393a8a5b24fcb0b66e754daf93",
+      "source": "data/scripts/common/ifs_mpgs_friends.lua",
+      "provenance": "decompiled 53.2",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/ifs_mpgs_friends.lua",
+      "source_sha256": "5a06d6447f1ef175998d7408e47b67e591010667b89d7f53afb2cf1401270727"
+    },
+    {
+      "lvl": "common",
+      "name": "globals",
+      "body_sha256": "282d8f6ace9f6b1bc016919b809f110c71ad915d3642685d256c1a1ac51b49ae",
+      "source": "data/scripts/common/globals.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\globals.lua",
+      "source_sha256": "4635e95e83c4059e218d4425ae0aee085f42a9641694641939a88bb99835afee"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_saveop",
+      "body_sha256": "d376d09508829c9a66efc11048c6d449c28fe8ba23f1b6fbaa0cb961b9427df1",
+      "source": "data/scripts/common/ifs_saveop.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_saveop.lua",
+      "source_sha256": "99761392035560f8f76861f5e516af022035f5bb8a7653d5d572a1b4c8ece65e"
+    },
+    {
+      "lvl": "common",
+      "name": "popup_ab",
+      "body_sha256": "a393a48d47473b8bc4006cf576a3726c909bc73bda52d8fa0a14417f3e9ebbb6",
+      "source": "data/scripts/common/popup_ab.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\popup_ab.lua",
+      "source_sha256": "c56950b111ab7471962796cc8099ee2e0ad89fafca2ea90bd57f7da43a319673"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_pckeyboard",
+      "body_sha256": "7c9af846c87b88eaca7d0fd61d764c9f6d44720a3a935d049581431fba0e4e80",
+      "source": "data/scripts/common/ifs_opt_pckeyboard.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_pckeyboard.lua",
+      "source_sha256": "fe07f33543b3b9730c8de4befc07f4c6524756ff449fe457066ae063dddc7863"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_pccontrols",
+      "body_sha256": "a5aaa0512ce9d68aebaf031a1234d347183d321c9d5d608c4d0d9c2820415aff",
+      "source": "data/scripts/common/ifs_opt_pccontrols.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_pccontrols.lua",
+      "source_sha256": "0937335eb6c0a4f4254d977895c458067baddab5e4cec6a42e23da2134f9089e"
+    },
+    {
+      "lvl": "common",
+      "name": "ifs_opt_pcvideo",
+      "body_sha256": "b58eb9a3a42d40cb8c3412da42ce4b56a34906e60853cd6af223e40368dff14e",
+      "source": "data/scripts/common/ifs_opt_pcvideo.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_opt_pcvideo.lua",
+      "source_sha256": "72823cf5b0e7e853a3245dc5bc85df1ad81e76a9b75b12d9bfa8e7f8112b4f72"
+    },
+    {
+      "lvl": "common",
+      "name": "ifutil_mouse",
+      "body_sha256": "8b922da2da0fcff3faf2c5c98e4f039fdfcbac328d886f154d272db8fd0d2a26",
+      "source": "data/scripts/common/ifutil_mouse.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifutil_mouse.lua",
+      "source_sha256": "b149ef4a81f22874a971ea08aa1cbdb1b0800de88549b1a7f630684ac35ab995"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_editbox",
+      "body_sha256": "b241b754ca0480e3e5fa64c21e6999b51ffcfc4bf5362d698fcb9b5bf106ee20",
+      "source": "data/scripts/common/ifelem_editbox.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_editbox.lua",
+      "source_sha256": "cc2e9835b865f2513eff10b69628342ba431d2a25e2e307238660239e693bb7d"
+    },
+    {
+      "lvl": "common",
+      "name": "ifelem_tabmanager",
+      "body_sha256": "4683daa06f6b2dce53d3ec79cf1cbd2d414d15afd8d5ec773b0eb3a38e5959a5",
+      "source": "data/scripts/common/ifelem_tabmanager.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifelem_tabmanager.lua",
+      "source_sha256": "bb1d23dd52ebd20b8b40e209f86b7abc92246469c48825c0849760a58d9d8cd4"
+    },
+    {
+      "lvl": "common",
+      "name": "pctabs_options",
+      "body_sha256": "e2c296937ffffc61baa4278ffb43cf4c9fc97b06eb47962fb1086b3ae267865d",
+      "source": "data/scripts/common/pctabs_options.lua",
+      "provenance": "community",
+      "original_path": ".refs/community/SWBF2_Xbox_mod_effort/ModTools_lua_src/Common/scripts/PC/pctabs_options.lua",
+      "source_sha256": "6d0c282d76041937a6213cda2e40b6872bc7b71efbdafd034ee0fa8d92dabd92"
+    },
+    {
+      "lvl": "ingame",
+      "name": "points",
+      "body_sha256": "f327b5d278b0a7076fc3d03d2ac0beb8b9c5c2c29c74d9011b584ac5a5a80479",
+      "source": "data/scripts/ingame/points.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\points.lua",
+      "source_sha256": "155af4f4da800e054603246f2da83df711f815e1c5ff7901b1f16803f4924c7d"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_sideselect",
+      "body_sha256": "d058cc82c7a8d5281ea7118ba5661d93b222d441a9816163a7bcdc8c510ae8fa",
+      "source": "data/scripts/ingame/ifs_sideselect.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_sideselect.lua",
+      "source_sha256": "35578022dd05bff358298b1f22db083a4ac83cbef11a8e71be6aeec81ac98381"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_charselect",
+      "body_sha256": "8af2ebbf3fdbd9b9266869e52c3028c72df79c0033be3b29456c3cc549c18dc3",
+      "source": "data/scripts/ingame/ifs_charselect.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_charselect.lua",
+      "source_sha256": "2d9bc6167562d05c742ff80059d81305eda468a6b5b83693ae9287f85ddf85b2"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_mapselect",
+      "body_sha256": "6fd380d6184510d1cb550e02e04cc89b87f3c2782626e100f8a417004fb81c7b",
+      "source": "data/scripts/ingame/ifs_mapselect.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_mapselect.lua",
+      "source_sha256": "168f99239a3454fe6952202293cd4749cbcd57d01ccf1f97b413a500f2bcb3ad"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_readyselect",
+      "body_sha256": "1b58890bf5039fa1f74289c88c4773d4e2740d35d0d87ec5e51f0e7ecc26c350",
+      "source": "data/scripts/ingame/ifs_readyselect.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_readyselect.lua",
+      "source_sha256": "35365452f6cfeaa5576a919755ccb88afa6f62b3928b3b0d45073cc4bd651191"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_fakeconsole",
+      "body_sha256": "27b447ed6f9a599f388cc4973d44b1d0664a713639211d6d7b1bb249a2dd10a6",
+      "source": "data/scripts/ingame/ifs_fakeconsole.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_fakeconsole.lua",
+      "source_sha256": "ecd63266c44712984d9fccb58d3977544fe8b5e6d06fe3276f6540afcaf5e341"
+    },
+    {
+      "lvl": "ingame",
+      "name": "game_interface",
+      "body_sha256": "d485702d1f7bba46278f2f544d22905e343b3bc1866b1fdd30bbc54816def217",
+      "source": "data/scripts/ingame/game_interface.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\game_interface.lua",
+      "source_sha256": "61b26f0fcac047e97bbac1fcd18de4e5a17bd70df1a4e5b838105b003b7f35fe"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_pc_spawnselect",
+      "body_sha256": "dc8c7299fd48613c2c2aaed5129202e72517d001f8e4eb3e967e840de8593c40",
+      "source": "data/scripts/ingame/ifs_pc_spawnselect.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_pc_spawnselect.lua",
+      "source_sha256": "102826572e7f73d9da348539b930ea79c517c57017f2597d06c3d469d8daee03"
+    },
+    {
+      "lvl": "ingame",
+      "name": "ifs_pc_spectator",
+      "body_sha256": "7df14b3f28718ea8ed76ed76a01e2eb0f0f57c76c149c85ad2a5d523799a7ff7",
+      "source": "data/scripts/ingame/ifs_pc_spectator.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ifs_pc_spectator.lua",
+      "source_sha256": "6f969694c2c6173f186ebfb4c547d3b9ff9b3c8d6bfa9de30607f616d870f220"
+    },
+    {
+      "lvl": "mission",
+      "name": "setup_teams",
+      "body_sha256": "1ec0cb14a9c43867c039d5f00e67ac37db8200216a25f4251aa6343fbbdf336a",
+      "source": "data/scripts/mission/setup_teams.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\setup_teams.lua",
+      "source_sha256": "67acf1b3bf433b3e3c871f096552f2670b93864c557330770ee308563a270948"
+    },
+    {
+      "lvl": "mission",
+      "name": "gametype_conquest",
+      "body_sha256": "f08bd37e131c4913558f2321b69a38fdfa3e3a1de98fce72d9535a5e8f97b2fd",
+      "source": "data/scripts/mission/gametype_conquest.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\gametype_conquest.lua",
+      "source_sha256": "25df1de918a9d63023eae9f44f6d12dc8cac53e2003987bafe1703ef4522bc9b"
+    },
+    {
+      "lvl": "mission",
+      "name": "gametype_capture",
+      "body_sha256": "bd4aa0c0c741d7d6aef8c66694655126681da383ba49e92d3668094ed5da5640",
+      "source": "data/scripts/mission/gametype_capture.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\gametype_capture.lua",
+      "source_sha256": "b0355d06bbaa1a7f16f872de5ab2b894eac319235c3ac812c9083cb9cae73386"
+    },
+    {
+      "lvl": "mission",
+      "name": "objective",
+      "body_sha256": "1fc8d4fee780611174fb88146776ae6539242322ce3df08e377f7e30f28fd3f9",
+      "source": "data/scripts/mission/objective.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\Objective.lua",
+      "source_sha256": "016772d399ddbc96506f7f008aa3925ee48473611399dd4743773afd31847e53"
+    },
+    {
+      "lvl": "mission",
+      "name": "multiobjectivecontainer",
+      "body_sha256": "2682049a51ec6dd5198152d5437a55c49743142b4d15259bafedf86a73cd3d4f",
+      "source": "data/scripts/mission/multiobjectivecontainer.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\MultiObjectiveContainer.lua",
+      "source_sha256": "9998cabc249edb5c82a1cf67e8a2dc214d97d81f92d305dcfe16b6901c527015"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectivectf",
+      "body_sha256": "707194aafcb151c7daa67a44d97eb5166186b5db7bb89bf1c479b4520a838fa7",
+      "source": "data/scripts/mission/objectivectf.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveCTF.lua",
+      "source_sha256": "d655a3469e1e8ff06f75f0ef5e212e62679625cf851848a1245322354b7947c6"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectiveassault",
+      "body_sha256": "cb5af8f72411a240cd48325c9d4a40ac53f34971aa8f7cba8e90616a249e45b1",
+      "source": "data/scripts/mission/objectiveassault.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveAssault.lua",
+      "source_sha256": "ace3868a3c2eb2f04166e1bfa639ae03b2ac54e033cd63cf6d68da816cf82158"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectivespaceassault",
+      "body_sha256": "03260c76f20ca1aa1ec313cf92c0d21ad97477158cce1f0ed00874172bb5310f",
+      "source": "data/scripts/mission/objectivespaceassault.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveSpaceAssault.lua",
+      "source_sha256": "535bbce916d100d1ce883c15a4dd1e43415c115c1c1cb44e7cdccefb55ee57d0"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectiveconquest",
+      "body_sha256": "60a0adec68f7ae17a517d4ea23bd0fab5704b379312f23b0cb6bc70fa4f5fc97",
+      "source": "data/scripts/mission/objectiveconquest.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveConquest.lua",
+      "source_sha256": "2c19ff2e12081b564c02e0339389b8ad5db479e301a5fc20d1cb3e0fb80043f5"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectivetdm",
+      "body_sha256": "fd63ea938ec2a1ac07bdf718cc7da457a6cd342040a5cb6eacf49e7c4f1993d0",
+      "source": "data/scripts/mission/objectivetdm.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveTDM.lua",
+      "source_sha256": "78ded4fab05f9de085c343e9e3f2dc5bab219705b933a41746bc872b32468bf3"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectiveoneflagctf",
+      "body_sha256": "544b0639b6880b102f5f2a9c5c05be128f8ab9ee6f245e5407f3cdf5c380f85e",
+      "source": "data/scripts/mission/objectiveoneflagctf.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveOneFlagCTF.lua",
+      "source_sha256": "077893627cd5c146b2d4beeac03adbc7d82d733f0d4eabbcf2eeba78cc47cbd3"
+    },
+    {
+      "lvl": "mission",
+      "name": "soundevent_ctf",
+      "body_sha256": "91d3d675d31c1a322783bca18682adebe39d8b3a7e710d4ab473f7503548ba85",
+      "source": "data/scripts/mission/soundevent_ctf.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\SoundEvent_ctf.lua",
+      "source_sha256": "e7815ae4cbd4638fd43e07c81c68efb3a59d3b478200bd71c0075d33b29dc8f6"
+    },
+    {
+      "lvl": "mission",
+      "name": "objectivegoto",
+      "body_sha256": "7acc209654d355fd464f7da73fd71b8cc5ad968d197f4c097716f7071da91c65",
+      "source": "data/scripts/mission/objectivegoto.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\ObjectiveGoto.lua",
+      "source_sha256": "d5b3a9e593c773a119603c041e5040013704e5d294fb53e8e0443c98fe4a8869"
+    },
+    {
+      "lvl": "mission",
+      "name": "linkedshields",
+      "body_sha256": "af88189306ab558a8a537b3cb6d6b5648a5dd11d138a345f33ffea6902381e7e",
+      "source": "data/scripts/mission/linkedshields.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\LinkedShields.lua",
+      "source_sha256": "cd342e6aea407a733b6ba821b498c2747d92eb96bf058592467f0c0f5f733d05"
+    },
+    {
+      "lvl": "mission",
+      "name": "linkeddestroyables",
+      "body_sha256": "529fa663dd9f7fd0942a3a0f71b01decf9cdce8e95d57e8f50e82d0de0abab7f",
+      "source": "data/scripts/mission/linkeddestroyables.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\LinkedDestroyables.lua",
+      "source_sha256": "1de353967df4b08fdd2b71ad987a7f18f092e33d82d4736a22242ee9aeef3c59"
+    },
+    {
+      "lvl": "mission",
+      "name": "linkedturrets",
+      "body_sha256": "9011932cd118647d4306185f1587914b56a31680d65c9d643d662aa5660118bb",
+      "source": "data/scripts/mission/linkedturrets.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\LinkedTurrets.lua",
+      "source_sha256": "f09d9097c9b68599c589318f36656e1b92ee2fc256d27365219636a341ac0fba"
+    },
+    {
+      "lvl": "mission",
+      "name": "ambush",
+      "body_sha256": "440a49193a14c89d9c8fdfe778e46ac3d77b629a64516b54a3288953afc579b8",
+      "source": "data/scripts/mission/ambush.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\Ambush.lua",
+      "source_sha256": "b583e823a205acc305503882cb75ba8643687900c250882c32433b89ec3f48e9"
+    },
+    {
+      "lvl": "mission",
+      "name": "playmoviewithtransition",
+      "body_sha256": "69007740be395c949427b7ae34f7218e7b01a95f227a0ff38eca64f69b1b4397",
+      "source": "data/scripts/mission/playmoviewithtransition.lua",
+      "provenance": "mod-tools",
+      "original_path": "E:\\BF2_ModTools\\data\\Common\\scripts\\PlayMovieWithTransition.lua",
+      "source_sha256": "555443e59ea0eec31dcd398046a5ec9d365b8d3e306ccaffc5f459e910b8a6d3"
+    }
+  ]
+}

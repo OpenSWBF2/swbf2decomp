@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E0BC5D7-03D1-5947-AEC7-5EAA5F25A967}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LuaCompiler</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup>
+    <TargetName>LuaCompiler</TargetName>
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Platform)\$(Configuration)\LuaCompiler\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>src;src\LuaFL\include;src\LuaFL\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LUA_OPNAMES;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link><SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
+    <ClCompile><Optimization>Disabled</Optimization></ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LuaFL\src\lapi.cpp" />
+    <ClCompile Include="src\LuaFL\src\lcode.cpp" />
+    <ClCompile Include="src\LuaFL\src\ldebug.cpp" />
+    <ClCompile Include="src\LuaFL\src\ldo.cpp" />
+    <ClCompile Include="src\LuaFL\src\ldump.cpp" />
+    <ClCompile Include="src\LuaFL\src\lfunc.cpp" />
+    <ClCompile Include="src\LuaFL\src\lgc.cpp" />
+    <ClCompile Include="src\LuaFL\src\llex.cpp" />
+    <ClCompile Include="src\LuaFL\src\lmem.cpp" />
+    <ClCompile Include="src\LuaFL\src\lobject.cpp" />
+    <ClCompile Include="src\LuaFL\src\lopcodes.cpp" />
+    <ClCompile Include="src\LuaFL\src\lparser.cpp" />
+    <ClCompile Include="src\LuaFL\src\lstate.cpp" />
+    <ClCompile Include="src\LuaFL\src\lstring.cpp" />
+    <ClCompile Include="src\LuaFL\src\ltable.cpp" />
+    <ClCompile Include="src\LuaFL\src\ltm.cpp" />
+    <ClCompile Include="src\LuaFL\src\lundump.cpp" />
+    <ClCompile Include="src\LuaFL\src\lvm.cpp" />
+    <ClCompile Include="src\LuaFL\src\lzio.cpp" />
+    <ClCompile Include="tools\luac_host.cpp" />
+    <ClCompile Include="tools\lvl_build.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

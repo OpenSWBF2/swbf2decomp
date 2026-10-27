@@ -2553,12 +2553,22 @@
     <ClInclude Include="src\ZlibFL\zutil.h" />
     <ClInclude Include="src\lglcd\lgLcd.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="LuaCompiler.vcxproj">
+      <Project>{8E0BC5D7-03D1-5947-AEC7-5EAA5F25A967}</Project>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup Condition="'$(SWBF2_GAMEDATA)' == ''">
     <_SteamSWBF2>$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 6060', 'InstallLocation', null, RegistryView.Registry64, RegistryView.Registry32))</_SteamSWBF2>
     <SWBF2_GAMEDATA Condition="'$(_SteamSWBF2)' != ''">$(_SteamSWBF2)\GameData</SWBF2_GAMEDATA>
   </PropertyGroup>
+  <Target Name="BuildLuaLvls" AfterTargets="Build" DependsOnTargets="StageGameData" Condition="'$(SWBF2_GAMEDATA)' != '' and '$(SWBF2_NOSTAGE)' != 'true'">
+    <Exec WorkingDirectory="$(ProjectDir)" Command="&quot;$(OutDir)LuaCompiler.exe&quot; lvl --index &quot;data\scripts\index.json&quot; --input shell=&quot;$(SWBF2_GAMEDATA)\data\_lvl_pc\shell.lvl&quot; --input common=&quot;$(SWBF2_GAMEDATA)\data\_lvl_pc\common.lvl&quot; --input ingame=&quot;$(SWBF2_GAMEDATA)\data\_lvl_pc\ingame.lvl&quot; --input mission=&quot;$(SWBF2_GAMEDATA)\data\_lvl_pc\mission.lvl&quot; --out-dir &quot;$(OutDir)data\_lvl_pc&quot;" />
+  </Target>
   <Target Name="StageGameData" AfterTargets="Build" Condition="'$(SWBF2_GAMEDATA)' != '' and '$(SWBF2_NOSTAGE)' != 'true'">
+    <Exec WorkingDirectory="$(ProjectDir)" Command="&quot;$(OutDir)LuaCompiler.exe&quot; stage --retail &quot;$(SWBF2_GAMEDATA)&quot; --out &quot;$(OutDir).&quot;" />
     <ItemGroup>
       <GameDataFile Include="$(SWBF2_GAMEDATA)\binkw32.dll" Condition="Exists('$(SWBF2_GAMEDATA)\binkw32.dll')" />
       <GameDataFile Include="$(SWBF2_GAMEDATA)\Galaxy.dll" Condition="Exists('$(SWBF2_GAMEDATA)\Galaxy.dll')" />
@@ -2568,7 +2578,6 @@
     </ItemGroup>
     <Copy SourceFiles="@(GameDataFile)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" />
     <WriteLinesToFile File="$(OutDir)steam_appid.txt" Lines="6060" Overwrite="true" />
-    <Exec Command="if not exist &quot;$(OutDir)data&quot; mklink /J &quot;$(OutDir)data&quot; &quot;$(SWBF2_GAMEDATA)\data&quot;" />
     <MakeDir Directories="$(OutDir)SaveGames" />
   </Target>
 </Project>
